@@ -2,33 +2,33 @@
 Proyecto Android creada con Kotlin y uno de los mejores ejemplos para implementar Data Binding. Registro de contactos con nombre y un email.
 
 ## 🎯 Objetivo del proyecto
-Este proyecto se creó para endender los principios de Data Binding, Live Data y fun Corutines.
+Este proyecto se creó para entender los principios de Data Binding, Live Data, Hilt Dependencies y Corutines.
 
 ## 🚀 Características
 - Interfaz de usuario limpia e intuitiva.
 - Desarrollada con Kotlin.
 - Implementación de Data Binding y Live Data.
-- ROOM Database
+- ROOM Database.
+- Dependencies Injection (Hilt).
 - Sigue las mejores prácticas de Android.
 
 ## 🛠️ Tecnología utilizada
-- Android SDK
-- Kotlin
-- Gradle
 - Data Binding
 - Live Data
+- Hilt (DI)
 - ROOM
 
 ## 🧠 Lo que aprendí
 - Principios de Live Data.
-- Fun Corutines.
+- Corutines.
 - Implementacion de ROOM.
 - Escritura de código legible y fácil de mantener.
 - Trabajo con Kotlin en proyectos Android.
 
 ## 📌 Mejoras futuras
-- Sustituir ROOM por Firebase Databse.
+- Implementación de Hilt (DI).
 - Navigation Drawer & Tab Layaout.
+- Sustituir ROOM por Firebase Databse.
 
 ## 📷 Capturas de pantalla
 
