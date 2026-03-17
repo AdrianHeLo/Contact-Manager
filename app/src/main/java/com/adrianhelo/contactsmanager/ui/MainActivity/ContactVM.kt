@@ -1,4 +1,4 @@
-package com.adrianhelo.contactsmanager.ui.viewmodel
+package com.adrianhelo.contactsmanager.ui.MainActivity
 
 import androidx.databinding.Bindable
 import androidx.databinding.Observable

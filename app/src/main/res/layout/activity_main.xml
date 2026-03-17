@@ -7,7 +7,7 @@
     <data>
         <variable
             name="contactVM"
-            type="com.adrianhelo.contactsmanager.ui.viewmodel.ContactVM" />
+            type="com.adrianhelo.contactsmanager.ui.MainActivity.ContactVM" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white"
-        tools:context=".ui.MainActivity">
+        tools:context=".ui.MainActivity.MainActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/container_inputs"

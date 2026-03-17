@@ -1,7 +1,10 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("kotlin-kapt")
+    // KSP
+    id("com.google.devtools.ksp")
+    // DI Hilt
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -55,16 +58,17 @@ dependencies {
     // ROOM Database
     val room_version = "2.8.4"
     implementation("androidx.room:room-runtime:$room_version")
-    // In a nutshell, kapt helps you use libraries like Dagger and Data Binding in your Kotlin projects by enabling Java-based annotation processing.
-    kapt("androidx.room:room-compiler:$room_version")
-    // Kotlin Extensions and Coroutines support for Room
+    ksp("androidx.room:room-compiler:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
-    // Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+    implementation(kotlin("script-runtime"))
 
     val lifecycle_version = "2.10.0"
     // ViewModel
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     // LiveData
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+
+    // DI Hilt
+    implementation("com.google.dagger:hilt-android:2.57.1")
+    ksp("com.google.dagger:hilt-android-compiler:2.57.1")
 }

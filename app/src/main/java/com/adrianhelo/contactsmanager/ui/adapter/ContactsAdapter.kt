@@ -1,4 +1,4 @@
-package com.adrianhelo.contactsmanager.ui
+package com.adrianhelo.contactsmanager.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

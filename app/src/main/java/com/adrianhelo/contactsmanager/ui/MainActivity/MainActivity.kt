@@ -1,4 +1,4 @@
-package com.adrianhelo.contactsmanager.ui
+package com.adrianhelo.contactsmanager.ui.MainActivity
 
 import android.os.Bundle
 import android.widget.Toast
@@ -14,8 +14,7 @@ import com.adrianhelo.contactsmanager.data.ContactRepository
 import com.adrianhelo.contactsmanager.databinding.ActivityMainBinding
 import com.adrianhelo.contactsmanager.domain.Contact
 import com.adrianhelo.contactsmanager.domain.ContactDB
-import com.adrianhelo.contactsmanager.ui.viewmodel.ContactVM
-import com.adrianhelo.contactsmanager.ui.viewmodel.ViewModelFactory
+import com.adrianhelo.contactsmanager.ui.adapter.ContactsAdapter
 
 class MainActivity : AppCompatActivity() {
 
